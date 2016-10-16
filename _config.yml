@@ -116,7 +116,7 @@ events:
     description: "Coding"
   - image: "/img/timeline/baracktocat.jpg"
     date: "2015.9.1~2018.6.1"
-    description: "一个学生"
+    description: "A STUDENT"
 
 # First image of the Timeline
 
@@ -136,7 +136,7 @@ email: "18236556108@163.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Ansndx"
+author_blurb: "Ansndx  As a programmer, how can use the Chinese version of the software?"
 author_blurb_image: "/img/touxiang.jpg"
 
 ##################
