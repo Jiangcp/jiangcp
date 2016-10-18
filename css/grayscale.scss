@@ -12,7 +12,7 @@
 
 body {
     width: 100%;
-    height: 100%;
+	height: 90%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $font-color;
     background-color: $primary-color;
@@ -184,7 +184,6 @@ a {
         }
     }
     @media(min-width:768px) {
-        height: 100%;
         padding: 0;
         .intro-body {
             .brand-heading {
@@ -232,11 +231,11 @@ a {
 }
 
 .content-section {
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 60px;
+    padding-top: 60px;
     @media(min-width:767px) {
-        margin-top: 125px;
-        padding-top: 125px;
+        margin-top: 70px;
+        padding-top: 70px;
     }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
@@ -326,7 +325,8 @@ ul.social-buttons li a {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
+	margin-bottom:5px;
     text-align: center;
     p {
         margin: 0;

@@ -136,7 +136,7 @@ email: "18236556108@163.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Ansndx  As a programmer, how can use the Chinese version of the software?"
+author_blurb: "使用此博客主要是为了改善自身多年来懒散的习惯,顺便能够对看到的博文加以归类,以方便自身学习,收录.<p>Powered by Ansndx and Theme by johnsmith</p>"
 author_blurb_image: "/img/touxiang.jpg"
 
 ##################
@@ -157,7 +157,7 @@ social:
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+img-404: "/img/labtocat.png"
 
 ##################
 # GPG on Keybase #
