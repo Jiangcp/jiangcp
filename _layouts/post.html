@@ -24,7 +24,7 @@
               <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
                 {{ page.category }}
               </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              <a href="{{site.baseurl}}{{page.url }}#comments">Comments</a>
               <br />
               {% for tag in page.tags %}
                 <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>
@@ -53,12 +53,12 @@
           {% endif%}
         </div>
       </div>
-	  
-    </section>
-<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="{{site.baseurl}}{{post.url}}" data-title="{{ post.title }}" data-url="{{site.baseurl}}"></div>
+	  #comments
+	  <!-- 多说评论框 start -->
+	<div class="ds-thread" style="text-align:left" data-thread-key="{{site.baseurl}}{{post.url}}" data-title="{{ post.title }}" data-url="{{site.baseurl}}"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"jiangcp"};
 	(function() {
@@ -71,6 +71,8 @@ var duoshuoQuery = {short_name:"jiangcp"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
+    </section>
+
     {% include footer.html %}
 
     {% include js.html %}
